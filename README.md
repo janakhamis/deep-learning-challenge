@@ -17,7 +17,7 @@ The purpose of this analysis is to create a deep learning model that can predict
     - Input layer with the appropriate number of neurons corresponding to the number of features.
     - Two hidden layers with 80 and 30 neurons, respectively, using the ReLU activation function.
     - An output layer with a single neuron using the sigmoid activation function to classify applications as successful or unsuccessful.
-    ![alt text](Images\image.png)
+    ![alt text](Images/image.png)
 - **Model Performance:**
   - The initial model achieved an accuracy of approximately 73.52%, which did not meet the desired target performance.
 
@@ -28,18 +28,18 @@ The purpose of this analysis is to create a deep learning model that can predict
     #### **Optimization 1: Increasing Neurons and Adding a Hidden Layer**  
     - **Increased the number of neurons** in each hidden layer to enhance learning capacity (100, 80, and 30 neurons respectively).  
     - **Added an additional hidden layer** to increase model complexity and allow for more intricate pattern recognition.  
-    ![alt text](Images\image-1.png)
+    ![alt text](Images/image-1.png)
 
     #### **Optimization 2: Adjusting Hidden Layer Neurons & Increasing Training Duration**  
     - **Adjusted the number of neurons** in the first and second hidden layers to evaluate the impact on performance (90 and 50 neurons respectively).
     - **Increased the number of epochs to 120** to allow the model more time to learn from the data.  
     - **Monitored validation loss** to detect overfitting and determine if early stopping was necessary. 
-    ![alt text](Images\image-2.png) 
+    ![alt text](Images/image-2.png) 
 
     #### **Optimization 3: Simplifying the Network Architecture**  
     - **Removed the third hidden layer** to simplify the network architecture and reduce the risk of overfitting.
     - **Retained the adjusted number of neurons** in the first and second hidden layers (90 and 50 neurons respectively) to maintain a balance between learning capacity and model complexity.
-    ![alt text](Images\image-3.png)
+    ![alt text](Images/image-3.png)
 
 ## Summary
 The results indicate that increasing the model's complexity did not substantially improve its performance, with accuracy remaining steady at approximately 73%. This suggests that the dataset may have reached its limit in capturing meaningful patterns, and the current features may be maximizing the predictive power achievable with this model.
